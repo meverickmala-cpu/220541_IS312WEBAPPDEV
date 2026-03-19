@@ -1,0 +1,43 @@
+/*  Author: Vincent Mala
+    Date: 3/18/2026
+    This CSS file styles the HTML
+*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"], input[type="submit"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}

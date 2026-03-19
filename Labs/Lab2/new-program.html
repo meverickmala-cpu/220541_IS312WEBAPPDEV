@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+    Author: Vincent
+    Date: 18 March 2026 | Unit: IS312
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Vincent">
+    <meta name="description" content="Form page for adding a new program to the database">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Add Program</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h2>Add New Program</h2>
+    <form action="add-new-program.php" method="POST" onsubmit="return validateForm()">
+        <label for="programCode">Program Code:</label>
+        <input type="text" id="programCode" name="programCode"><br><br>
+
+        <label for="programName">Program Name:</label>
+        <input type="text" id="programName" name="programName"><br><br>
+
+        <label for="duration">Duration:</label>
+        <input type="text" id="duration" name="duration"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
